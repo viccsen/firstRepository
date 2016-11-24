@@ -25,4 +25,24 @@ git merge dev
 git branch -d dev
 git log --graph 
 git log --graph --pretty=oneline --abbrev-commit
-create some new merge
+//create some new merge now
+git merge --no-ff -m 'merge with no-ff' dev
+//create some new merge
+//make some change
+git stash
+git stash list
+git stash apply + git stash drop === git stash pop ?
+git branch -D dev
+git pull
+git push origin branch-name
+git branch --set-upstream branch-name origin/branch-name
+git remote -v
+git tag v1.0
+git tag
+git tag v0.9 commit_id
+git show tagname
+git tag -a <tagname> -m "blablabla..."
+git tag -d v0.1
+git push origin v2.0
+git push origin --tags
+git push origin :refs/tags/<tagname>可以删除一个远程标签
