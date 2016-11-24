@@ -25,5 +25,11 @@ git merge dev
 git branch -d dev
 git log --graph 
 git log --graph --pretty=oneline --abbrev-commit
+<<<<<<< Updated upstream
 create some new merge now
 
+=======
+git merge --no-ff -m 'merge with no-ff' dev
+create some new merge
+make some change
+>>>>>>> Stashed changes
