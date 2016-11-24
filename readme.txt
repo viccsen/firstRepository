@@ -18,3 +18,5 @@ git rm
 git push -u origin master
 git push origin master
 git remote add origin git@github.com:viccsen/firstRepository.git
+swjfajfsdmn vjsd
+wjenfkdsncfqenfq
