@@ -23,4 +23,7 @@ git checkout -b dev == git branch dev  git checkout dev
 git branch
 git merge dev 
 git branch -d dev
+git log --graph 
+git log --graph --pretty=oneline --abbrev-commit
+create some new merge
 
