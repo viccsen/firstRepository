@@ -14,3 +14,7 @@ git reset --hard commit_id
 stage(index)
 git checkout -- filename
 git reset HEAD filename
+git rm
+git push -u origin master
+git push origin master
+git remote add origin git@github.com:viccsen/firstRepository.git
