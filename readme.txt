@@ -25,5 +25,5 @@ git merge dev
 git branch -d dev
 git log --graph 
 git log --graph --pretty=oneline --abbrev-commit
-create some new merge
+create some new merge now
 
