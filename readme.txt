@@ -12,3 +12,4 @@ git status
 git diff
 git reset --hard commit_id
 stage(index)
+cat
