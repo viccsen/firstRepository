@@ -18,15 +18,9 @@ git rm
 git push -u origin master
 git push origin master
 git remote add origin git@github.com:viccsen/firstRepository.git
-<<<<<<< HEAD
-swjfajfsdmn vjsd
-wjenfkdsncfqenfq
-=======
 git clone git@github.com:viccsen/xxx.git
 git checkout -b dev == git branch dev  git checkout dev
 git branch
 git merge dev 
 git branch -d dev
-ohllalalalal
-bklsln lgmds;l
->>>>>>> feature1
+
