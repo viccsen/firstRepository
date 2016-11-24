@@ -46,3 +46,5 @@ git tag -d v0.1
 git push origin v2.0
 git push origin --tags
 git push origin :refs/tags/<tagname>可以删除一个远程标签
+git diff --cached// 暂存区和上次提交时的文件差异
+git commit -a -m '加-a跳过git add 直接commit'
