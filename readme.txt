@@ -12,4 +12,5 @@ git status
 git diff
 git reset --hard commit_id
 stage(index)
-cat
+git checkout -- filename
+git reset HEAD filename
